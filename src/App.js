@@ -5,7 +5,7 @@ import Stats from './components/stats/stats';
 
 function App() {
   return (
-    <div className="App">
+    <div className='app'>
         <div className='app__header'>
       <Header />
       </div>
