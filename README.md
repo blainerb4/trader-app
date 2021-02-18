@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# This is a Robinhood Clone built with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with React. Material UI and Firebase are some of the dependencies used in this project. 
+
+# Goal of the Project
+
+The goal of the project was to create an app with a similar UI to Robinhood. 
+
+# Improvements
+
+Add dynamic chart, add buy/sell feature, sign up/login
 
 ## Available Scripts
 
