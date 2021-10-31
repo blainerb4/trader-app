@@ -1,12 +1,12 @@
 import firebase from 'firebase'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyD5oWbx1PSTFKoRutQvzGRNUzYcepH1xtk",
-    authDomain: "trader-app-35e95.firebaseapp.com",
-    projectId: "trader-app-35e95",
-    storageBucket: "trader-app-35e95.appspot.com",
-    messagingSenderId: "960623223786",
-    appId: "1:960623223786:web:f53b51a092db7c6505c893"
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID
   };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
